@@ -33,7 +33,10 @@ db/data/
 db/my.cnf/
 db/sql/
 
-src/main/kotlin/com/book/manager/infrastructure/database/
+src/main/kotlin/com/book/manager/infrastructure/database/*
+!src/main/kotlin/com/book/manager/infrastructure/database/mapper/BookWithRentalMapper.kt
+!src/main/kotlin/com/book/manager/infrastructure/database/mapper/BookWithRentalMapperExtensions.kt
+!src/main/kotlin/com/book/manager/infrastructure/database/record/BookWithRentalRecord.kt
 
 *#
 *.jar
